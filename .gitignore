@@ -26,5 +26,4 @@ crash-reports/
 # Architectury Transformer
 .architectury-transformer/
 
-# Gradle wrapper (keep gradlew, ignore download)
-gradle/wrapper/gradle-wrapper.jar
+# Gradle wrapper jar is needed in repo for ./gradlew to work
