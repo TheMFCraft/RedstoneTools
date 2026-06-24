@@ -1,0 +1,9 @@
+{
+  "key.redstonetweaks.toggle": "Toggle Redstone Overlays",
+  "category.redstonetweaks": "Redstone Tweaks",
+  "screen.redstonetweaks.config": "Redstone Tweaks Config",
+  "option.redstonetweaks.signal_strength": "Signal Strength Numbers",
+  "option.redstonetweaks.component_status": "Component ON/OFF Status",
+  "option.redstonetweaks.block_updates": "Block Update Targets",
+  "option.redstonetweaks.connections": "Redstone Connection Lines"
+}

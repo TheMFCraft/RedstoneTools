@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+*.jar
+*.war
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minecraft/Loom
+run/
+crash-reports/
+
+# Architectury Transformer
+.architectury-transformer/
+
+# Gradle wrapper (keep gradlew, ignore download)
+gradle/wrapper/gradle-wrapper.jar

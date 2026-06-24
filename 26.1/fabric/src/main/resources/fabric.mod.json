@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "redstonetweaks",
+  "version": "${mod_version}",
+  "name": "Redstone Tweaks",
+  "description": "Client-side redstone overlays showing signal strength, component status, block updates, and connection lines.",
+  "authors": ["PhiroStudios"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/redstonetweaks/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["phiro.redstonetweaks.fabric.RedstoneTweaksFabric"],
+    "modmenu": ["phiro.redstonetweaks.fabric.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=26.1",
+    "architectury": ">=2.0"
+  },
+  "custom": { "modmenu": { "client": true } }
+}

@@ -1,0 +1,23 @@
+[mods]
+[[mods]]
+modId = "redstonetweaks"
+version = "${mod_version}"
+displayName = "Redstone Tweaks"
+description = "Client-side redstone overlays showing signal strength, component status, block updates, and connection lines."
+authors = ["PhiroStudios"]
+license = "MIT"
+clientSideOnly = true
+
+[[dependencies.redstonetweaks]]
+modId = "minecraft"
+type = "required"
+versionRange = ">=26.1"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.redstonetweaks]]
+modId = "architectury"
+type = "required"
+versionRange = ">=2.0"
+ordering = "NONE"
+side = "CLIENT"
